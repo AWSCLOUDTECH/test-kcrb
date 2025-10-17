@@ -91,7 +91,7 @@ resource "aws_instance" "web_ec2" {
             <div style="text-align:center; font-size:1.5em; color:#333; margin:20px; line-height:1.8;">
                 <b>環境名: ${var.env}</b><br>
                 <b>アプリ名: ${local.app_name}</b><br>
-                <b>プレフィクス名: ${local.name_prefix}</b>
+                <b>ほほほほプレフィクス名: ${local.name_prefix}</b>
             </div>
         HTML
         systemctl enable --now nginx
